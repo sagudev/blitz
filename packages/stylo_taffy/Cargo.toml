@@ -16,9 +16,8 @@ style = { workspace = true }
 style_atoms = { workspace = true }
 
 [features]
-default = ["std", "block", "flexbox", "grid", "grid_named"]
+default = ["std", "block", "flexbox", "grid"]
 std = ["taffy/std"]
 block = ["taffy/block_layout"]
 flexbox = ["taffy/flexbox"]
 grid = ["taffy/grid"]
-grid_named = ["grid", "taffy/grid_named"]
