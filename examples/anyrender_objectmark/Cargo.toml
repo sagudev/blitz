@@ -1,0 +1,20 @@
+[package]
+name = "anyrender_objectmark"
+version = "0.1.0"
+edition = "2024"
+license.workspace = true
+
+[dependencies]
+kurbo = { workspace = true }
+winit = { workspace = true }
+peniko = { workspace = true }
+wgpu = { workspace = true }
+usvg = { workspace = true }
+image = { workspace = true, features = ["png"] }
+anyrender = { path = "../../packages/anyrender" }
+anyrender_svg = { path = "../../packages/anyrender_svg" }
+anyrender_vello = { path = "../../packages/anyrender_vello" }
+anyrender_vello_cpu = { path = "../../packages/anyrender_vello_cpu", features = [
+    "pixels_window_renderer",
+] }
+fastrand = "2.3"

@@ -283,6 +283,23 @@ dependencies = [
 ]
 
 [[package]]
+name = "anyrender_objectmark"
+version = "0.1.0"
+dependencies = [
+ "anyrender",
+ "anyrender_svg",
+ "anyrender_vello",
+ "anyrender_vello_cpu",
+ "fastrand",
+ "image",
+ "kurbo",
+ "peniko",
+ "usvg",
+ "wgpu 24.0.5",
+ "winit",
+]
+
+[[package]]
 name = "anyrender_svg"
 version = "0.5.0"
 dependencies = [

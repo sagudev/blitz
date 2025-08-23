@@ -21,6 +21,7 @@ members = [
   "examples/todomvc",
   "examples/wgpu_texture",
   "examples/anyrender",
+  "examples/anyrender_objectmark",
 ]
 exclude = ["sites"]
 resolver = "2"
